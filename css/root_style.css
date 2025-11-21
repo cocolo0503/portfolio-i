@@ -1,0 +1,19 @@
+html{
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    /* 横スク防止 */
+    overflow-x: hidden; 
+}
+header{
+    background-color: #867800;
+    width: 1280px;
+    height: 107px;
+    display: flex;
+    padding: 30px 20px;
+}
+.head {
+    margin: 0;
+}
