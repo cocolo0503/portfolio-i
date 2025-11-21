@@ -3,3 +3,11 @@
     font-family: "Rounded Mplus 1c";
     color: #FFFFFF;
 }
+.tab-font{
+    font-size: 24pt;
+    font-family: "Rounded Mplus 1c";
+    color: #FFFFFF;
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+}
