@@ -20,4 +20,11 @@
     font-size: 24pt;
     font-family: "Rounded Mplus 1c";
     color: #A8A000;
+    padding-left: 12pt;
+}
+.main{
+    font-size: 12pt;
+    font-family: "Rounded Mplus 1c";
+    color: #505050;
+    padding-left: 12pt;
 }
