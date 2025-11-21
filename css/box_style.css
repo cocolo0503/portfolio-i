@@ -2,3 +2,8 @@
     background-color: #867800;
     border:1px solid white;
 }
+.ilb{
+    display: inline-block;
+    background-color: white;
+    border: 12px solid #FFFF00;
+}
