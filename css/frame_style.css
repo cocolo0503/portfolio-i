@@ -4,6 +4,32 @@
     border-radius: 10px;
     margin:0 auto;
 }
+
+
+
+#highlighthalf {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    
+    /* ⭐ 2つの content-group を横並びにする設定 ⭐ */
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+.content-group {
+    flex-basis: 45%; 
+    
+    /* グループ内の要素（見出しと画像エリア）を縦に並べる */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; /* グループ内のコンテンツを中央揃え */
+}
+
+
+
 #tab{
     background-color: #6b6000;
 }

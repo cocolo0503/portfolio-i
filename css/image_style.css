@@ -1,15 +1,38 @@
-.imagebg{
-    height: 200px;
-}
-.scimg{
+.scimg {
+    width: 100%; /* 親要素 (content-group) の幅いっぱいに使う */
     display: flex;
-    overflow-x: scroll;
+    
+    /* ⭐ 横スクロールの設定 ⭐ */
+    overflow-x: scroll; 
     overflow-y: hidden;
-    flex-wrap: nowrap;
-    height: 300px;
+    flex-wrap: nowrap; /* 必須: 画像が折り返さず、横に一列で並ぶ */
+    
     padding: 10px 0;
+    
+    /* スクロールバーを非表示にしたい場合 (オプション) */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
+.scimg::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+.imagebg {
+    /* ⭐ 必須: 画像の幅を固定し、縮まないようにする ⭐ */
+    width: 45%; /* 例として100px。好みのサイズに調整してください */
+    height: 100px; /* 画像の高さを固定 */
+    object-fit: cover; /* 画像の比率を維持して、要素全体を覆う */
+    border-radius: 5px;
+
+    /* Flexアイテムとして縮小・拡大しないように設定 */
+    flex-shrink: 0; 
+    flex-grow: 0; 
+    
+    margin-right: 10px; /* 画像と画像の間隔 */
+}
+
+
+
 .iconimg{
     height: 80px;
-    padding-left: 20px;
 }
