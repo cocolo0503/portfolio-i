@@ -28,3 +28,15 @@
     color: #505050;
     padding-left: 12pt;
 }
+
+.footer{
+    font-family: "Rounded Mplus 1c";
+    font-size: 24pt;
+    color: white;
+    padding-left: 12pt;
+}
+.footertext{
+    font-family: "Rounded Mplus 1c";
+    font-size: 12pt;
+    color: white;
+}
